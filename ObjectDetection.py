@@ -11,7 +11,7 @@ screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Benthic Species")
 
 
-cv2.namedWindow("Vission")
+cv2.namedWindow("Vision")
 
 camera1 = cv2.VideoCapture(0)
 camera2 = cv2.VideoCapture(1)
@@ -22,10 +22,7 @@ camera1.set(4,320);
 camera2.set(3,480);
 camera2.set(4,320);
 
-def my_function():
-  print("Hello from a function")
-  
-  
+
 while(True):
     
     screen.fill(WHITE)
